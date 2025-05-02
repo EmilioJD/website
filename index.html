@@ -2,24 +2,64 @@
 <html>
 <head>
     <title>My Info</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+        }
+        .content {
+            max-width: 500px;
+            width: 100%;
+            padding: 0 20px;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        h3 {
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+        p {
+            text-align: left;
+        }
+        ul {
+            padding-left: 1.5rem;
+            text-align: left;
+        }
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h3>Hi, I'm Emilio</h3>
-    <p>I am a software engineer</p>
-    <p>Right now, I'm working at Airgoods.</p>
+    <div class="content">
+        <h3>Hi, I'm Emilio</h3>
+        <p>I am a software engineer. Right now, I'm working at <a href="https://airgoods.com" target="_blank"></a>Airgoods</a>, 
+            a specialty food & beverage marketplace. Where I mainly write TypeScript.</p>
 
-    <p>I went to Harvard for undergrad.</p>
-    <!-- Link something silly for Harvard -->
+        <p>I went to <a href="https://en.wikipedia.org/wiki/Harvard_College" target="_blank">Harvard</a> for undergrad.
+            I'm originally from the <a href="https://en.wikipedia.org/wiki/Dominican_Republic" target="_blank"></a>Dominican Republic</a>, 
+            was raised in <a href="https://en.wikipedia.org/wiki/Miami" target="_blank">Miami</a>, 
+            and now I live in <a href="https://en.wikipedia.org/wiki/New_Amsterdam" target="_blank">New York</a>, specifically 
+            in <a href="https://en.wikipedia.org/wiki/Williamsburg,_Brooklyn" target="_blank">Williamsburg, Brooklyn</a>.
+        </p>
 
-    <p>I'm originally from Miami, and now I live in New York </p>
-    <!-- Link New Amsterdam -->
+        <p>Recently, I've been:</p>
+        <ul>
+            <li>doing handstands</li>
+            <li>trying to get to 225lbs on the bench</li>
+            <li><a href="reading.html">reading</a></li>
+            <li>exploring New York</li>
+            <li>paddleboarding</li>
+        </ul>
 
-    <p>My hobbies include:</p>
-    <!-- List of hobbies -->
-    <ul>
-        <li>Handstands</li>
-        <li>Reading</li>
-        <li>Paddleboarding</li>
-    </ul>
+        <p>Contact me here: <a href="mailto:emiliojdeleon14@gmail.com">emiliojdeleon14@gmail.com</a></p>
+    </div>
 </body>
 </html>
